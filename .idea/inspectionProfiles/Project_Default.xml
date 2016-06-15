@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="gtkbutton" />
+            <item index="7" class="java.lang.String" itemvalue="gtk" />
+            <item index="8" class="java.lang.String" itemvalue="gtklabel" />
+            <item index="9" class="java.lang.String" itemvalue="gtkwindow" />
+            <item index="10" class="java.lang.String" itemvalue="gtkcombobox" />
+            <item index="11" class="java.lang.String" itemvalue="gtkentry" />
+            <item index="12" class="java.lang.String" itemvalue="gdk" />
+            <item index="13" class="java.lang.String" itemvalue="gtkradiobutton" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.model.user.User.__first_name" />
+          <option value="src.model.user.User.__last_name" />
+          <option value="src.model.user.User.__nickname" />
+          <option value="src.model.user.User.__password" />
+          <option value="src.model.language.Language.__name" />
+          <option value="src.model.language.Language.__user_id" />
+          <option value="src.model.vocabulary.Vocabulary.__name_german" />
+          <option value="src.model.vocabulary.Vocabulary.__name_foreign_language" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

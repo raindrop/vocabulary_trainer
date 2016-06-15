@@ -1,0 +1,54 @@
+GtkWindow {
+    background: honeydew;
+}
+
+GtkLabel {
+    color: darkblue;
+}
+
+.button, GtkComboBox {
+    background: darkseagreen;
+    border: 1px outset green;
+    color: darkblue;
+    padding: 5px;
+}
+
+.entry {
+    border: 1px solid darkgray;
+    color: darkblue;
+    background: aliceblue;
+}
+
+GtkEntry:focus {
+    background: white;
+}
+
+GtkButton:hover, GtkComboBox:hover {
+    background: lightgreen;
+    border: 1px inset green;
+}
+
+GtkRadioButton:hover {
+    background: none;
+    border: solid 4px darkseagreen;
+}
+
+GtkLabel#message_preparation,
+GtkLabel#message_register,
+GtkLabel#message_user,
+GtkLabel#message_language,
+GtkLabel#message_vocabulary {
+    background: #800000;
+    border: 2px inset red;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+#welcome_label {
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+
+
+
